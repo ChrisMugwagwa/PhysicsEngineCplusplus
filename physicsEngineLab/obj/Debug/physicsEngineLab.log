@@ -1,0 +1,100 @@
+﻿  main.cpp
+  ofApp.cpp
+  world.cpp
+  worldobject.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h(2361): error C2143: syntax error: missing ';' before 'string' (compiling source file src\worldobject.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h(2361): error C2059: syntax error: 'string' (compiling source file src\worldobject.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h(2361): error C2143: syntax error: missing ';' before '{' (compiling source file src\worldobject.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h(2361): error C2447: '{': missing function header (old-style formal list?) (compiling source file src\worldobject.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(8): error C2236: unexpected token 'class'. Did you forget a ';'? (compiling source file src\world.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(9): error C2143: syntax error: missing ';' before '{' (compiling source file src\world.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(9): error C2447: '{': missing function header (old-style formal list?) (compiling source file src\world.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(8): error C2236: unexpected token 'class'. Did you forget a ';'? (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(9): error C2143: syntax error: missing ';' before '{' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(9): error C2447: '{': missing function header (old-style formal list?) (compiling source file src\main.cpp)
+src\world.cpp(4): error C2653: 'World': is not a class or namespace name
+src\world.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+src\world.cpp(6): error C2065: 'frames': undeclared identifier
+src\world.cpp(7): error C2065: 'gravity': undeclared identifier
+src\world.cpp(8): error C2065: 'width': undeclared identifier
+src\world.cpp(9): error C2065: 'height': undeclared identifier
+src\world.cpp(10): warning C4508: 'World': function should return a value; 'void' return type assumed
+src\world.cpp(12): error C2653: 'World': is not a class or namespace name
+src\world.cpp(13): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(13): error C2228: left of '.size' must have class/struct/union
+  src\world.cpp(13): note: type is 'unknown-type'
+src\world.cpp(15): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(15): error C2227: left of '->applyImpulseForce' must point to class/struct/union/generic type
+src\world.cpp(15): error C2065: 'gravity': undeclared identifier
+src\world.cpp(17): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(17): error C2228: left of '.size' must have class/struct/union
+  src\world.cpp(17): note: type is 'unknown-type'
+src\world.cpp(18): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(18): error C2227: left of '->hasCollided' must point to class/struct/union/generic type
+src\world.cpp(20): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(20): error C2227: left of '->processCollisionImpulse' must point to class/struct/union/generic type
+src\world.cpp(24): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(24): error C2227: left of '->moveAndBounceOffWalls' must point to class/struct/union/generic type
+src\world.cpp(24): error C2065: 'width': undeclared identifier
+src\world.cpp(24): error C2065: 'height': undeclared identifier
+src\world.cpp(26): error C2065: 'frames': undeclared identifier
+src\world.cpp(29): error C2653: 'World': is not a class or namespace name
+src\world.cpp(30): error C2065: 'frames': undeclared identifier
+src\world.cpp(33): error C2653: 'World': is not a class or namespace name
+src\world.cpp(35): error C2065: 'worldObjects': undeclared identifier
+src\world.cpp(35): error C2228: left of '.push_back' must have class/struct/union
+  src\world.cpp(35): note: type is 'unknown-type'
+src\world.cpp(40): error C2653: 'World': is not a class or namespace name
+src\world.cpp(41): error C2065: 'worldObjects': undeclared identifier
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(21): error C2065: 'World': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(21): error C2146: syntax error: missing ';' before identifier 'world' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(21): error C3861: 'world': identifier not found (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(22): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(22): error C2228: left of '.update' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(22): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(23): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(23): error C2228: left of '.getElapsedFrames' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(23): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(27): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(27): error C2228: left of '.update' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(27): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(28): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(28): error C2228: left of '.getElapsedFrames' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(28): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(43): error C2065: 'World': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(43): error C2146: syntax error: missing ';' before identifier 'world' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(43): error C3861: 'world': identifier not found (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(44): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(44): error C2228: left of '.addWorldObject' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(44): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(45): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(45): error C2228: left of '.getWorldObjects' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(45): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(45): error C2228: left of '.size' must have class/struct/union (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(94): error C2065: 'World': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(94): error C2146: syntax error: missing ';' before identifier 'world' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(94): error C3861: 'world': identifier not found (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(97): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(97): error C2228: left of '.addWorldObject' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(97): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(100): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(100): error C2228: left of '.update' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(100): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(108): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(108): error C2228: left of '.update' must have class/struct/union (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(108): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(193): error C2065: 'World': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(193): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(193): error C2061: syntax error: identifier 'World' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(197): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(197): error C2227: left of '->addWorldObject' must point to class/struct/union/generic type (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(197): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(198): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(198): error C2227: left of '->addWorldObject' must point to class/struct/union/generic type (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(198): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(205): error C2065: 'world': undeclared identifier (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(205): error C2227: left of '->update' must point to class/struct/union/generic type (compiling source file src\main.cpp)
+  c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\tests.h(205): note: type is 'unknown-type' (compiling source file src\main.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(8): error C2236: unexpected token 'class'. Did you forget a ';'? (compiling source file src\ofApp.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(9): error C2143: syntax error: missing ';' before '{' (compiling source file src\ofApp.cpp)
+c:\of_v0.9.8_vs_release\apps\myapps\physicsenginelab\src\world.h(9): error C2447: '{': missing function header (old-style formal list?) (compiling source file src\ofApp.cpp)
